@@ -19,7 +19,7 @@ using Keys = Microsoft.Xna.Framework.Input.Keys;
 
 namespace SystemDefect
 {
-    public class Game1 : Game
+    public class _ResizeFix : Game
     {
         // MonoGame
         private GraphicsDeviceManager _graphics;
@@ -60,7 +60,7 @@ namespace SystemDefect
         private const uint WM_EXITSIZEMOVE = 0x0232;  // Fired when the user releases the mouse button.
         #endregion
 
-        public Game1()
+        public _ResizeFix()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
